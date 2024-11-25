@@ -38,8 +38,8 @@ $row = mysqli_fetch_assoc($result);
                     <img style="margin-left: 40px;" width="40px" height="30px" src="logosinfondo.webp" alt="">
                 </div>
                 <ul>
-                    <li><a href="#"><i class="bi bi-house-door-fill"></i> Dashboard</a></li>
-                    <li><a href="#"><i class="bi bi-webcam"></i> Camara</a></li>
+                    <li><a href="index.php"><i class="bi bi-house-door-fill"></i> Dashboard</a></li>
+                    <li><a href="camara.php"><i class="bi bi-webcam"></i> Camara</a></li>   
                     <li><a href="#"><i class="bi bi-clock-history"></i> Historial de eventos</a></li>
                 </ul>
             </div>
@@ -49,7 +49,7 @@ $row = mysqli_fetch_assoc($result);
                 <h1>Bienvenido</h1>
             </header>
             <section>
-            <iframe src="http://192.168.1.25/" width="640" height="480"></iframe>
+                <iframe src="https://90f3-190-108-95-235.ngrok-free.app/" width="640" height="480"></iframe>
             </section>
         </main>
     </div>

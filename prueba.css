@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    color: white;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+}
+
+.buttons button:nth-child(odd) {
+    background-color: #28a745; /* Verde */
+}
+
+.buttons button:nth-child(even) {
+    background-color: #dc3545; /* Rojo */
+}

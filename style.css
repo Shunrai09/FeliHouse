@@ -80,7 +80,7 @@ body {
     border-radius: 5px;
     padding: 20px;
     width: 90%;
-    min-width: 900px;
+    min-width: 1300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
@@ -116,17 +116,30 @@ body {
     text-align: center;
 }
 
+.card-1{
+  min-width: 440px;
+}
+.card-2{
+  min-width: 385px;
+}
 
+.card-3{
+  min-width: 385px;
+}
 
-.c2 {
-    width: 80%;
-    height: 220px;
+.c1 {
+  
+}
+
+.c2 {   
+    width: 90%;
+    height: 270px;
     min-width: 250px;
     
 }
 
 .c3 {
-    height: 300px;
+    height: 360px;
     min-width: 250px;
 }
 
