@@ -1,0 +1,16 @@
+body{
+    overflow: hidden;
+}
+.camara{
+    display: flex;
+    justify-content: center;
+    scrollbar-width: none; /* Para navegadores compatibles (Firefox) */
+  -ms-overflow-style: none; /* Para navegadores de Microsoft */    
+}   
+.camara iframe {
+    width: 90%;
+    height: 600px;
+    border: none;
+    scrollbar-width: none; /* Para navegadores compatibles (Firefox) */
+  -ms-overflow-style: none; /* Para navegadores de Microsoft */
+}

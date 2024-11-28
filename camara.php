@@ -16,7 +16,7 @@ if (!$conn) {
 $sql = "SELECT * FROM sensor_temperatura ORDER BY id DESC LIMIT 1";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
-?>
+?>  
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +26,7 @@ $row = mysqli_fetch_assoc($result);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felihouse</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="camera.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
@@ -48,8 +49,8 @@ $row = mysqli_fetch_assoc($result);
             <header class="header">
                 <h1>Bienvenido</h1>
             </header>
-            <section>
-                <iframe src="https://90f3-190-108-95-235.ngrok-free.app/" width="640" height="480"></iframe>
+            <section class="camara">
+                <iframe src="http://192.168.1.13/felicam/1" frameborder="0" allowfullscreen ></iframe>   
             </section>
         </main>
     </div>
